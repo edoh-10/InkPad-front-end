@@ -4,6 +4,7 @@ import { FiFileText, FiEdit, FiTrash2, FiEye, FiSearch, FiCalendar, FiUser, FiSh
 // import { useAuth } from '../../Context/AuthContext'; // Si nécessaire
 
 // URL de base de votre API.
+// const API_BASE_URL = 'http://localhost:5000/api'; // À ADAPTER
 const API_BASE_URL = 'https://inkpad.onrender.com/api'; // À ADAPTER
 
 // Données de démonstration pour les auteurs (similaire à AdminUserManagementPage)

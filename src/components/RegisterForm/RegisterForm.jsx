@@ -1,6 +1,7 @@
 // RegisterForm.jsx
 import React, { useState } from "react";
 import { FiUser, FiMail, FiLock, FiLogIn } from "react-icons/fi"; // Icônes
+// const api_base_url = "http://localhost:5000/api";
 const api_base_url = "https://inkpad.onrender.com/api";
 
 const RegisterForm = ({ onRegister, onSwitchToLogin }) => {
@@ -35,7 +36,7 @@ const RegisterForm = ({ onRegister, onSwitchToLogin }) => {
     setIsLoading(true);
 
     try {
-      //   console.log('Tentative d\'inscription avec:', { username, email, password });
+        // console.log('Tentative d\'inscription avec:', { username, email, password });
       const response = await fetch(`${api_base_url}/auth/register`, {
         method: "POST",
         headers: {

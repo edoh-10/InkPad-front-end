@@ -14,6 +14,7 @@ function PublicNoteDetail() {
   //console.log("Id de chaque note", note._id)
 
   const id = voirPlusId;
+  // const api_base = "http://localhost:5000/api";
   const api_base = "https://inkpad.onrender.com/api";
   const navigate = useNavigate();
 

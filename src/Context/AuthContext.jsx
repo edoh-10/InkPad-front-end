@@ -60,7 +60,7 @@ export const AuthProvider = ({ children }) => {
       isAuthenticated: false,
       isLoading: false,
     });
-    console.log("AuthContext: Utilisateur déconnecté.");
+    // console.log("AuthContext: Utilisateur déconnecté.");
   };
 
   return (

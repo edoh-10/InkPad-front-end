@@ -11,6 +11,7 @@ import { UsePublicsNotes } from "../../Context/PublicsNotesContext";
 // import PublicProfilImage from "../../modals/PublicProfilImages";
 
 // URL de base de votre API.
+// const API_BASE_URL = "http://localhost:5000/api"; // À ADAPTER
 const API_BASE_URL = "https://inkpad.onrender.com/api"; // À ADAPTER
 
 // Données de démonstration pour les notes publiques (simulant un appel API)

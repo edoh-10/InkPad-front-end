@@ -14,6 +14,7 @@ const EditProfileModal = () => {
     }
 
     // initialisation de variable pour l'url de base de l'api
+    // const url_base_api = "http://localhost:5000/api/user/";
     const url_base_api = "https://inkpad.onrender.com/api/user/";
     // récupération du token
     const token = localStorage.getItem("authToken");

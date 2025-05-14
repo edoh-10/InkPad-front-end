@@ -1,6 +1,7 @@
 // NewNoteForm.jsx
 import React, { useState } from "react";
 import { FiSave, FiXCircle, FiType, FiFileText } from "react-icons/fi"; // Icônes
+// const api_base_url = "http://localhost:5000/api";
 const api_base_url = "https://inkpad.onrender.com/api";
 // import { useUserProfil } from '../../Context/UserProfileContext';
 

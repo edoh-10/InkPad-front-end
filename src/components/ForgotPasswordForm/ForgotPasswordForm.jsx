@@ -12,6 +12,7 @@ const ForgotPasswordForm = ({ onRequestReset, onSwitchToLogin }) => {
     setError('');
     setSuccess('');
 
+    // const api_base_url = 'http://localhost:5000/api/' 
     const api_base_url = 'https://inkpad.onrender.com/api/' 
 
     if (!email) {

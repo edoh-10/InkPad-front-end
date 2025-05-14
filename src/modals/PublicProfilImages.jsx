@@ -26,7 +26,7 @@ function PublicProfilImage() {
                 </button>
             </div>
             {/* image du profil */}
-            <img src={publicsNotesData.user.avatar} alt="" className='w-full h-[100%] '/>
+            <img src={publicsNotesData.user.avatar} alt="" className='w-auto h-[100%] '/>
         </div>
     </div>
   )

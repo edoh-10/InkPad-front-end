@@ -17,7 +17,7 @@ function AdminProtectedRoute({ children }) {
 
 
   const userRole = localStorage.getItem("role");
-  console.log("log de userRole dans adminProtectedRoute", userRole);
+  // console.log("log de userRole dans adminProtectedRoute", userRole);
   
   if (userRole !== 'admin') {
     // Redirige vers une page d'accès refusé ou la page d'accueil si l'utilisateur n'est pas admin

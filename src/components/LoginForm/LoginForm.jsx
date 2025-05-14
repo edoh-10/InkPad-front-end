@@ -1,6 +1,7 @@
 // LoginForm.jsx
 import React, { useState } from 'react';
 import { FiMail, FiLock, FiLogIn } from 'react-icons/fi'; // Icônes pour email, mot de passe, connexion
+// const api_base_url = "http://localhost:5000/api";
 const api_base_url = "https://inkpad.onrender.com/api";
 
 const LoginForm = ({ onLogin, onSwitchToSignUp, onForgotPassword }) => {
@@ -37,8 +38,9 @@ const LoginForm = ({ onLogin, onSwitchToSignUp, onForgotPassword }) => {
 
       if(!response.ok){
         throw new Error(data.error)
+        
       }
-
+      
       // connexion réussir 
       // console.log('Connexion réussie, data reçue: Token', data);
 
@@ -54,9 +56,9 @@ const LoginForm = ({ onLogin, onSwitchToSignUp, onForgotPassword }) => {
         }  // Appeler la fonction onLogin passée en prop
 
 
-    } catch (err) {
-      console.error("Erreur de connexion:", err);
-      setError(err.error || 'Une erreur est survenue. Veuillez réessayer.');
+    } catch (data) {
+      console.error("Erreur de connexion:", data);
+      setError(data.error ||"Email ou mot de pass incorrect");
     }finally{
       setIsLoading(false);
     }

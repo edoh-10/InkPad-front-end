@@ -3,6 +3,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { FiMessageSquare, FiMail, FiUser, FiClock, FiSearch, FiSend, FiEye, FiCheck, FiArrowLeft, FiPaperclip } from 'react-icons/fi';
 
 // URL de base de votre API 
+// const API_BASE_URL = 'http://localhost:5000/api';
 const API_BASE_URL = 'https://inkpad.onrender.com/api';
 
 // Données de démonstration pour les messages de contact

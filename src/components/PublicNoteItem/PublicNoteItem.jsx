@@ -10,8 +10,8 @@ const PublicNoteItem = ({ note }) => {
   const {publicsNotesData, setPublicNotesData} = UsePublicsNotes();
   const {publicProfilState, setPublicProfilState} = UsePublicsNotes();
   const {voirPlusId, setVoirPlusId} = UsePublicsNotes();
-  //console.log("NotePublics Items", note);
-  //console.log("Id de chaque note", note._id)
+  // console.log("NotePublics Items", note);
+  // console.log("Id de chaque note", note._id)
   const uniqNote = note;
 
   // fonction pour ovrir le modal de profil

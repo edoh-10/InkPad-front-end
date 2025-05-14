@@ -36,6 +36,7 @@ const DashboardPage = () => {
   // initialisationt du state qui va contenir les informations de user
   const { setUser } = useUserProfil();
 
+  // const api_base_url = "http://localhost:5000/api";
   const api_base_url = "https://inkpad.onrender.com/api";
   const token = localStorage.getItem("authToken");
 

@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 import NoteDetailDisplay from '../../components/NoteDetailDisplay/NoteDetailDisplay';
 import { useParams, useNavigate, data } from 'react-router-dom'; // Pour React Router
 import { FiArrowLeft } from 'react-icons/fi';
+// const api_base_url = "http://localhost:5000/api";
 const api_base_url = "https://inkpad.onrender.com/api";
 
 

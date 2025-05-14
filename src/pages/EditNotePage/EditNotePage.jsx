@@ -13,6 +13,7 @@ const allNotesData = [
   // ... ajoutez d'autres notes si nécessaire pour les tests
 ];
 
+// const API_BASE_URL = 'http://localhost:5000/api'; 
 const API_BASE_URL = 'https://inkpad.onrender.com/api'; 
 const token = localStorage.getItem("authToken");
 
@@ -82,7 +83,7 @@ const EditNotePage = () => {
     }
 
     alert('Note mise à jour Redirection...');
-    navigate(`/DashboardPage/notes/${updatedNoteData.title}`);
+    navigate(`/inkpad/notes/${updatedNoteData.title}`);
 
   };
 

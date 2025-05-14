@@ -15,6 +15,7 @@ import {
 // import { useAuth } from '../../Context/AuthContext'; // Si nécessaire pour des vérifications de permissions spécifiques
 
 // URL de base de votre API.
+// const API_BASE_URL = "https://localhost:5000/api"; // À ADAPTER
 const API_BASE_URL = "https://inkpad.onrender.com/api"; // À ADAPTER
 
 // Données de démonstration pour les utilisateurs (simulant un appel API)

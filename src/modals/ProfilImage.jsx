@@ -26,7 +26,7 @@ function ProfilImage() {
                 </button>
             </div>
             {/* image du profil */}
-            <img src={user[2]} alt="" className='w-full h-[100%] '/>
+            <img src={user[2]} alt="" className='w-auto h-[100%] '/>
         </div>
     </div>
   )

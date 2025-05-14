@@ -13,6 +13,7 @@ const HomePage = () => {
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
 
+  // const API_BASE_URL = "http://localhost:5000/api";
   const API_BASE_URL = "https://inkpad.onrender.com/api";
 
   // usage de useEffect
