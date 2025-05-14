@@ -52,7 +52,7 @@ const LoginPage = () => {
         <div className="mb-8 text-center">
           {/* Logo simple si pas de Header complet */}
           <a href="/" className="text-4xl font-bold text-indigo-600 hover:text-indigo-700">
-            JinkPad
+            InkPad
           </a>
         </div>
         <LoginForm 

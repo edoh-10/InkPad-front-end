@@ -100,15 +100,15 @@ const Navbar = () => {
         <div className="md:hidden bg-gray-800">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
-                href={link.href}
+                to={`/${link.href}`}
                 onClick={() => setIsMobileMenuOpen(false)} // Ferme le menu après un clic
                 className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium transition duration-150 ease-in-out"
               >
                 {link.icon}
                 {link.text}
-              </a>
+              </Link>
             ))}
             {/* Section Authentification/Utilisateur pour menu mobile */}
             <div className="border-t border-gray-700 pt-4 mt-2">
